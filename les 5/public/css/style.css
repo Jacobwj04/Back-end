@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(black, 70%, white);
+}
+
+form{
+    width: 40%;
+    padding: 4rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 0.2rem solid #38E54D;
+}
+
+.form__input{
+    height: 5rem;
+    width: 70%;
+    padding: 1rem;
+    font-size: 2.5rem;
+    border: 0.4rem solid #4093c0;
+}
+
+.form__submit{
+    height: 5.5rem;
+    width: 70%;
+    padding: 1rem;
+    font-size: 2.5rem;
+    border: 0.4rem solid #4093c0;
+    background: white;
+    text-align: center;
+}
